@@ -1,12 +1,10 @@
 from flask import Flask, jsonify, request
 from models import animals, employees, feedings, visitors, revenue
 
-#! Special variable in Python that represents the name of the current module.
 app = Flask(__name__) 
 
 
 # API endpoints
-##! Test
 @app.route('/')
 def welcome():
     return 'Welcome to Zoo Manager!'
@@ -186,7 +184,5 @@ def get_revenue_report():
 
 
 
-#! When the script is executed directly, not imported as a module,
-#! it runs the app in debug mode when the script is executed directly.
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True) 
