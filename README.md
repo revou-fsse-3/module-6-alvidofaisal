@@ -124,8 +124,3 @@ docker run -p 5000:5000 zoo_manager
 - **Method**: GET
 - **Description**: Generates a report of revenue.
 - **Response**: JSON object containing revenue report.
-
-```
-
-This Markdown document provides a structured way to document your API and instructions for running your application with Docker. You can further customize it as per your requirements.
-```
