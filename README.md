@@ -111,6 +111,13 @@ docker run -p 5000:5000 zoo_manager
 
 ### Reporting API
 
+#### Animals Report
+
+- **Endpoint**: `/reports/animals`
+- **Method**: GET
+- **Description**: Generates a report of animals.
+- **Response**: JSON object containing animals report.
+
 #### Visitors Report
 
 - **Endpoint**: `/reports/visitors`
